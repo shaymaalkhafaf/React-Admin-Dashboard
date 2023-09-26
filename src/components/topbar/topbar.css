@@ -1,0 +1,34 @@
+.topbar {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-bottom: 0,5px solid rgba(128, 128, 128, 0.411);
+    box-shadow: -1px 4px 11px -2px rgba(0, 0, 0, 0.192);
+-webkit-box-shadow: -1px 4px 11px -2px rgba(0, 0, 0, 0.13);
+-moz-box-shadow: -1px 4px 11px -2px rgba(0, 0, 0, 0.096);
+}
+
+.topbarWrapper {
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: teal;
+    cursor: pointer;
+}
+
+.IconContainer{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.setting {
+    padding: 5px;
+}
